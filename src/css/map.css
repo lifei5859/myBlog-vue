@@ -1,0 +1,66 @@
+/*=======================================================map*/
+
+.map-header{
+    margin: 20px 0;
+    text-align: center;
+}
+.map-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    font-family: Verdana;
+    text-align: left;
+    background: #eeeeee;
+}
+.map-wrapper .map-nav , .map-wrapper .map-items-wrapper , .map-wrapper .footer-nav  {
+    width: 95%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.map-wrapper .map-nav > a {
+    font-size: 12px;
+    color: #000000;
+}
+.map-wrapper .map-nav > a:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.map-wrapper .map-items-wrapper > dd {
+    margin-top: 8px;
+    font-size: 12px;
+}
+.map-wrapper .map-items-wrapper > dd > a {
+    color: #353535;
+    text-decoration: underline;
+}
+
+.map-wrapper .map-items-wrapper .categories {
+    margin-left: 0;
+}
+.map-wrapper .map-items-wrapper .categories > dl > dd {
+    margin-top: 8px;
+    font-size: 12px;
+}
+.map-wrapper .map-items-wrapper .categories > dl > dd > a {
+    color: #353535;
+}
+
+.map-wrapper .footer-nav > a:nth-of-type(1) {
+    font-weight: bold;
+    color: #1f1f1f;
+}
+.map-footer {
+    font-size: 11px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.map-footer > p {
+    display: inline-block;
+    height: 28px;
+    margin: 0 auto;
+}

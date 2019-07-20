@@ -1,0 +1,21 @@
+.myBb {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgba(97,97,97,.48);
+}
+.myBb .myBb-content {
+    text-align: left;
+    color: #f40;
+    padding-top: 20px;
+}
+.myBb .myBb-content > span {
+    display: block;
+    margin-bottom: 10px;
+}
+.myBb .myBb-content > span:nth-of-type(1){
+    color: #1f1f1f;
+}
